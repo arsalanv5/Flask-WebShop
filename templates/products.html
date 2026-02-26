@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Products</h2>
+
+{% for product in products %}
+    <div>
+        <h3>{{ product.name }}</h3>
+        <p>Price: {{ product.price }}</p>
+        <p>Stock: {{ product.stock }}</p>
+
+        {% if session.get("user_id") %}
+            <a href="/add_to_cart/{{ product.id }}">Add to Cart</a>
+        {% endif %}
+        <hr>
+    </div>
+{% endfor %}
+
+{% endblock %}
