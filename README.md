@@ -35,23 +35,23 @@ During development, modern AI-assisted tools were used as learning support to ex
 
 ## 📂 Project Structure
 
-webshop/
-│
-├── app.py
-├── models.py
-├── webshop.db
-├── templates/
-│ ├── base.html
-│ ├── login.html
-│ ├── register.html
-│ ├── products.html
-│ ├── cart.html
-│ └── admin.html
-│
-├── static/
-│ └── style.css
-│
-└── .gitignore
+  webshop/
+  │
+  ├── app.py
+  ├── models.py
+  ├── webshop.db
+  ├── templates/
+  │ ├── base.html
+  │ ├── login.html
+  │ ├── register.html
+  │ ├── products.html
+  │ ├── cart.html
+  │ └── admin.html
+  │
+  ├── static/
+  │ └── style.css
+  │
+  └── .gitignore
 
 
 
@@ -61,29 +61,29 @@ webshop/
 
 1. Clone the repository:
 
-git clone <your-repo-url>
-cd Flask-WebShop
+  git clone <your-repo-url>
+  cd Flask-WebShop
 
 
 2. Create virtual environment (optional but recommended):
 
-python -m venv venv
-venv\Scripts\activate
+  python -m venv venv
+  venv\Scripts\activate
 
 
 3. Install dependencies:
 
-pip install flask flask_sqlalchemy
+  pip install flask flask_sqlalchemy
 
 
 4. Run the application:
 
-python app.py
+  python app.py
 
 
 5. Open in browser:
 
-http://127.0.0.1:5000
+  http://127.0.0.1:5000
 
 
 ---
