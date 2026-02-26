@@ -34,7 +34,7 @@ During development, modern AI-assisted tools were used as learning support to ex
 ---
 
 ## 📂 Project Structure
-
+```
   webshop/
   │
   ├── app.py
@@ -52,39 +52,39 @@ During development, modern AI-assisted tools were used as learning support to ex
   │ └── style.css
   │
   └── .gitignore
-
+```
 
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
-
+1. **Clone the repository:**
+```bash
   git clone <your-repo-url>
   cd Flask-WebShop
+```
 
-
-2. Create virtual environment (optional but recommended):
-
+2. **Create virtual environment (optional but recommended):**
+```bash
   python -m venv venv
   venv\Scripts\activate
+```
 
-
-3. Install dependencies:
-
+3. **Install dependencies:**
+```bash
   pip install flask flask_sqlalchemy
+```
 
-
-4. Run the application:
-
+4. **Run the application:**
+```bash
   python app.py
+```
 
-
-5. Open in browser:
-
+5. **Open in browser:**
+```bash
   http://127.0.0.1:5000
-
+```
 
 ---
 
